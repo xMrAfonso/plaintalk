@@ -44,13 +44,10 @@ const Home = () => {
       <header className="border-b bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-              <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17 29C17 23.4772 21.4772 19 27 19H71C76.5228 19 81 23.4772 81 29V73C81 78.5228 76.5228 83 71 83H27C21.4772 83 17 78.5228 17 73V29Z" fill="#66A1FF"/>
-                  <path d="M56 61.75L67.25 50.5L56 39.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M41 39.25L29.75 50.5L41 61.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-
-              <h1 className="text-xl font-bold">PlainTalk</h1>
+            <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
+              <Code className="h-5 w-5 text-primary-foreground" />
+            </div>
+            <h1 className="text-xl font-bold">PlainTalk</h1>
           </div>
           <nav className="flex items-center space-x-4">
             <Button variant="ghost" asChild className="hover-scale">
