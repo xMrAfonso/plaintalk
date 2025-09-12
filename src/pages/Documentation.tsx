@@ -61,77 +61,77 @@ const Documentation = () => {
                         <Badge variant="outline" className="mb-2">Program Structure</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`when
-                                    program
-                                    starts
-                                    to
-                                    var
-                                    remember
-                                    as
-                                    give back
-                                    `}</code>
+program
+starts
+to
+var
+remember
+as
+give back
+`}</code>
                         </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Control Flow</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`if
-                                    else
-                                    while
-                                    for
-                                    repeat
-                                    `}</code>
+else
+while
+for
+repeat
+`}</code>
                         </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Input/Output</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`say
-                                    display
-                                    ask
-                                    store
-                                    result
-                                    followed by
-                                    `}</code>
+display
+ask
+store
+result
+followed by
+`}</code>
                         </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Comparison & Logic</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`is equal to
-                                    is not equal to
-                                    is greater than
-                                    is less than
-                                    is greater than or equal to
-                                    is less than or equal to
-                                    `}</code>
+is not equal to
+is greater than
+is less than
+is greater than or equal to
+is less than or equal to
+`}</code>
                         </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Mathematical Operations</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`add
-                                    subtract
-                                    multiply
-                                    divide
-                                    by
-                                    from
-                                    `}</code>
+subtract
+multiply
+divide
+by
+from
+`}</code>
                         </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Other</Badge>
                         <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`using
-                                    with
-                                    set
-                                    increase
-                                    decrease
-                                    remove
-                                    delete
-                                    every
-                                    seconds
-                                    ms
-                                    `}</code>
+with
+set
+increase
+decrease
+remove
+delete
+every
+seconds
+ms
+`}</code>
                         </pre>
                     </div>
                 </div>
