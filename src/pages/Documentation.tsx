@@ -60,14 +60,15 @@ const Documentation = () => {
                     <div>
                         <Badge variant="outline" className="mb-2">Program Structure</Badge>
                         <ul className="space-y-1">
-                            <li><code>when</code></li>
-                            <li><code>program</code></li>
-                            <li><code>starts</code></li>
-                            <li><code>to</code></li>
-                            <li><code>var</code></li>
-                            <li><code>remember</code></li>
-                            <li><code>as</code></li>
-                            <li><code>give back</code></li>
+                            <code>{`when
+                                    program
+                                    starts
+                                    to
+                                    var
+                                    remember
+                                    as
+                                    give back
+                                    `}</code>
                         </ul>
                     </div>
                     <div>
