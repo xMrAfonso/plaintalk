@@ -50,7 +50,7 @@ const Documentation = () => {
               </p>
             </CardContent>
           </Card>
-        <Card className="mb-6">
+        <Card className="mt-3 mb-6">
             <CardHeader>
                 <CardTitle>Reserved Keywords</CardTitle>
                 <CardDescription>This are all the words that are reserved for the language.</CardDescription>
