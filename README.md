@@ -1,6 +1,6 @@
 # PlainTalk
 
-PlainTalk is a custom programming language designed to make coding accessible to everyone, especially beginners. Our goal is to teach core programming concepts using a simple, natural language syntax that reads like plain English.
+PlainTalk is a custom programming language designed to make coding accessible to everyone, especially beginners. The goal is to teach core programming concepts using a simple, natural language syntax that reads like plain English.
 
 ### Features
 
