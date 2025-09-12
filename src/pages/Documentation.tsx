@@ -59,7 +59,7 @@ const Documentation = () => {
                 <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
                         <Badge variant="outline" className="mb-2">Program Structure</Badge>
-                        <ul className="space-y-1">
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
                             <code>{`when
                                     program
                                     starts
@@ -69,65 +69,70 @@ const Documentation = () => {
                                     as
                                     give back
                                     `}</code>
-                        </ul>
+                        </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Control Flow</Badge>
-                        <ul className="space-y-1">
-                            <li><code>if</code></li>
-                            <li><code>else</code></li>
-                            <li><code>while</code></li>
-                            <li><code>for</code></li>
-                            <li><code>repeat</code></li>
-                        </ul>
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
+                            <code>{`if
+                                    else
+                                    while
+                                    for
+                                    repeat
+                                    `}</code>
+                        </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Input/Output</Badge>
-                        <ul className="space-y-1">
-                            <li><code>say</code></li>
-                            <li><code>display</code></li>
-                            <li><code>ask</code></li>
-                            <li><code>store</code></li>
-                            <li><code>result</code></li>
-                            <li><code>followed by</code></li>
-                        </ul>
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
+                            <code>{`say
+                                    display
+                                    ask
+                                    store
+                                    result
+                                    followed by
+                                    `}</code>
+                        </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Comparison & Logic</Badge>
-                        <ul className="space-y-1">
-                            <li><code>is equal to</code></li>
-                            <li><code>is not equal to</code></li>
-                            <li><code>is greater than</code></li>
-                            <li><code>is less than</code></li>
-                            <li><code>is greater than or equal to</code></li>
-                            <li><code>is less than or equal to</code></li>
-                        </ul>
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
+                            <code>{`is equal to
+                                    is not equal to
+                                    is greater than
+                                    is less than
+                                    is greater than or equal to
+                                    is less than or equal to
+                                    `}</code>
+                        </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Mathematical Operations</Badge>
-                        <ul className="space-y-1">
-                            <li><code>add</code></li>
-                            <li><code>subtract</code></li>
-                            <li><code>multiply</code></li>
-                            <li><code>divide</code></li>
-                            <li><code>by</code></li>
-                            <li><code>from</code></li>
-                        </ul>
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
+                            <code>{`add
+                                    subtract
+                                    multiply
+                                    divide
+                                    by
+                                    from
+                                    `}</code>
+                        </pre>
                     </div>
                     <div>
                         <Badge variant="outline" className="mb-2">Other</Badge>
-                        <ul className="space-y-1">
-                            <li><code>using</code></li>
-                            <li><code>with</code></li>
-                            <li><code>set</code></li>
-                            <li><code>increase</code></li>
-                            <li><code>decrease</code></li>
-                            <li><code>remove</code></li>
-                            <li><code>delete</code></li>
-                            <li><code>every</code></li>
-                            <li><code>seconds</code></li>
-                            <li><code>ms</code></li>
-                        </ul>
+                        <pre className="bg-secondary/50 p-4 rounded-lg text-sm overflow-x-auto mb-4">
+                            <code>{`using
+                                    with
+                                    set
+                                    increase
+                                    decrease
+                                    remove
+                                    delete
+                                    every
+                                    seconds
+                                    ms
+                                    `}</code>
+                        </pre>
                     </div>
                 </div>
             </CardContent>
