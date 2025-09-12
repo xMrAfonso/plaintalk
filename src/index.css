@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Coding Environment Theme - Dark First */
+    --background: 220 13% 8%;
+    --foreground: 220 9% 96%;
+
+    --card: 220 13% 10%;
+    --card-foreground: 220 9% 96%;
+
+    --popover: 220 13% 12%;
+    --popover-foreground: 220 9% 96%;
+
+    --primary: 217 100% 70%;
+    --primary-foreground: 220 13% 8%;
+
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 220 9% 96%;
+
+    --muted: 220 13% 12%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 142 76% 36%;
+    --accent-foreground: 220 9% 96%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 9% 96%;
+
+    --border: 220 13% 18%;
+    --input: 220 13% 15%;
+    --ring: 217 100% 70%;
+
+    --radius: 0.375rem;
+
+    /* Editor specific colors */
+    --editor-background: 220 13% 8%;
+    --editor-panel: 220 13% 10%;
+    --editor-line-numbers: 220 9% 45%;
+    --editor-selection: 217 100% 70% / 0.3;
+    
+    /* Console colors */
+    --console-background: 220 13% 7%;
+    --console-text: 220 9% 96%;
+    --console-success: 142 76% 56%;
+    --console-error: 0 84% 60%;
+    --console-warning: 45 93% 58%;
+    --console-info: 217 100% 70%;
+    --console-system: 264 83% 78%;
+
+    /* Syntax highlighting */
+    --syntax-keyword: 264 83% 78%;
+    --syntax-string: 142 76% 56%;
+    --syntax-number: 45 93% 68%;
+    --syntax-function: 217 100% 70%;
+    --syntax-comment: 220 9% 45%;
+    --syntax-variable: 38 100% 67%;
+
+    /* Animations */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 100% 70%), hsl(264 83% 78%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 56%));
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 217 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 100% 50%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    line-height: 1.6;
+  }
+  
+  /* Fix text clipping issues for descenders */
+  h1, h2, h3, h4, h5, h6, p, span, div {
+    line-height: 1.4;
+  }
+  
+  .text-5xl, .text-6xl {
+    line-height: 1.1;
+  }
+}
+
+@layer components {
+  /* Ensure buttons have proper line-height for descenders */
+  .btn, button {
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
